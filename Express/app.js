@@ -21,10 +21,8 @@ app.use(cors());
 indexRoutes(app);
 
 app.get('/', (req, res) => {
-  res.json({ message: 'job Portal Application' });
+  res.json({ message: 'Updated Code 04-05-2024' });
 });
-
-
 app.listen(port, () => {
   console.log( "Server is running on port "+ port );
 });

@@ -8,4 +8,7 @@ module.exports = function (app) {
   app.get(`${prefix}/blog/detail/:id`, tokenVerification , blogController.blogDetail );
   app.post(`${prefix}/update/blog`, tokenVerification , blogController.updateBlog );
   app.post(`${prefix}/delete/blog`, tokenVerification , blogController.deleteBlog );
+
+
+
 };
